@@ -48,7 +48,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
     <DialogLayout
       open={open}
       toggleClose={toggleClose}
-      title="Cryptoscapes"
+      title="info.c4ei.net"
       subheader={`Version ${version}`}
       maxWidth="xs"
     >
@@ -82,7 +82,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
         latency! This dashboard can be slow to update due to API rate limitations, and Cryptoscapes will not be liable
         for any losses incurred.
       </Typography>
-      <Box display="flex" justifyContent="space-between" paddingTop={3} paddingBottom={2}>
+      {/* <Box display="flex" justifyContent="space-between" paddingTop={3} paddingBottom={2}>
         <Button
           className={classes.linkButton}
           variant="contained"
@@ -107,7 +107,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
         >
           Project Board
         </Button>
-      </Box>
+      </Box> */}
     </DialogLayout>
   )
 }

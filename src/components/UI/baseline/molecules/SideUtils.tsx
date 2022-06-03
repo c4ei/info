@@ -2,7 +2,7 @@ import React from 'react';
 import { Theme, makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core';
 import GlobalLoadingProgress from './GlobalLoadingProgress';
-import GitHubButton from '../atoms/GitHubButton';
+// import GitHubButton from '../atoms/GitHubButton';
 
 const useStyles = makeStyles((theme: Theme) => ({
   sideUtils: {
@@ -22,7 +22,7 @@ const SideUtils: React.FC = () => {
   return (
     <Box className={classes.sideUtils}>
       <GlobalLoadingProgress />
-      <GitHubButton />
+      {/* <GitHubButton /> */}
     </Box>
   )
 }
